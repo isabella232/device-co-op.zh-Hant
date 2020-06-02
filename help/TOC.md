@@ -2,9 +2,13 @@
 cloud: experience-cloud
 product: Device Co-op
 audience: end-user
-user-guide-title: Device Co-op User Guide
+user-guide-title: Device Co-op使用指南
+user-guide-description: The Adobe Experience Cloud Device Co-op is a digital cooperative where participating customers share device link information. This information helps them deliver valuable and consistent cross-device experiences to their customers.
 translation-type: tm+mt
-source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
+source-git-commit: 67f9d909adac4d9e3229e66c76a43ee668ee7983
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +22,7 @@ source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
 + 關於裝置圖表 {#device-graph}
    + [裝置圖表概觀](processes/device-graph-overview.md)
    + [確定性和概率性連結](processes/links.md)
-   + [裝置圖表中的連結分享](processes/link-sharing.md)
+   + [裝置圖表中的連結共用](processes/link-sharing.md)
    + [已知裝置](processes/known-device.md)
    + [未知設備](processes/unknown-device.md)
 + Experience Cloud解決方案中的裝置合作資料 {#data}
@@ -27,6 +31,6 @@ source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
    + [Audience Manager —— 個人檔案連結](other-solutions/proflie-link.md)
    + [Target - A/B測試、多變數測試和體驗定位](other-solutions/target.md)
 + [消費者選擇退出工具、隱私權和裝置圖表](privacy.md)
-+ [Device Co-op 術語的名詞解釋](glossary.md)
++ [Device Co-op術語辭彙表](glossary.md)
 + [常見問題集](faq.md)
 + [Experience Cloud Device Co-op發行說明](release-notes.md)
