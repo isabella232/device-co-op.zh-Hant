@@ -2,18 +2,18 @@
 cloud: experience-cloud
 product: Device Co-op
 audience: end-user
-user-guide-title: Device Co-op使用指南
+user-guide-title: Device Co-op 指南
 user-guide-description: The Adobe Experience Cloud Device Co-op is a digital cooperative where participating customers share device link information. This information helps them deliver valuable and consistent cross-device experiences to their customers.
 translation-type: tm+mt
-source-git-commit: 67f9d909adac4d9e3229e66c76a43ee668ee7983
+source-git-commit: fcbe460a92e78d36675163eb31b8e086f2eb40b8
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
 
-# Device Co-op使用指南 {#using}
+# Device Co-op 指南 {#using}
 
 + [Adobe Experience Cloud Device Co-op檔案](home.md)
 + 關於Device Co-op {#about}
