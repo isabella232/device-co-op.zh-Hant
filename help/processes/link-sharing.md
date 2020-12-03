@@ -6,49 +6,52 @@ title: 裝置圖表中的連結共用
 uuid: 6c7202f0-c6d9-48a4-82ad-ee57d7a518a0
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 0%
 
 ---
 
 
-# Link sharing in the Device Graph{#link-sharing-in-the-device-graph}
+# 裝置圖表中的連結共用{#link-sharing-in-the-device-graph}
 
 關於裝置圖表中的連結共用。
 
-The [!DNL Device Graph] shares deterministic and probabilistic links with different members of the Adobe Experience Cloud Device Co-op. Link sharing is what makes the [!DNL Device Co-op] so powerful. 它會將每個成員對於匿名人員的關聯裝置所知道的內容延伸，但僅限於您之前看見過該匿名人員至少一個裝置。
+這些 [!DNL Device Graph] 連結會與Adobe Experience Cloud Device Co-op的不同成員共用確定性和概率性連結。 連結共用功能讓網站變得 [!DNL Device Co-op] 如此強大。 它擴展了每個成員對於匿名人員相關設備的瞭解，但前提是您之前至少見過該匿名人員的其中一個設備。
 
-## Device Graph summary review {#section-7858e9f61b5644c981ffb53626fcc19d}
+## 裝置圖表摘要審核 {#section-7858e9f61b5644c981ffb53626fcc19d}
 
-Before getting started, let&#39;s take a moment to review how the [!DNL Device Graph] works. 將資料發 [!DNL Device Co-op] 送到的成員 [!DNL Device Graph]。 使 [!DNL Device Graph] 用這些資料，從裝置間的確定性和概 [率性連結來建構個人身分](../processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931) 。 身為 [!DNL Device Co-op] 參與者，這些連結可提供經驗證的使用者、其他使用者與其裝置之間關係的相關見解。在下一個小節讓我們看一下其運作方式。
+在開始之前，我們先花點時間來檢視它的運 [!DNL Device Graph] 作。 將資料發 [!DNL Device Co-op] 送到的成員 [!DNL Device Graph]。 使 [!DNL Device Graph] 用這些資料，從裝置間的確定性和概 [率性連結來建構個人身分](../processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931) 。 身為參 [!DNL Device Co-op] 與者，這些連結可讓您深入瞭解已驗證的使用者、其他使用者及其裝置之間的關係。 讓我們在下節中看看它的運作方式。
 
-## Link sharing example {#section-cb410d827cf14f76bc9b0bd4d31ed767}
+## 連結共用範例 {#section-cb410d827cf14f76bc9b0bd4d31ed767}
 
-下列範例示範 Device Co-op 中連結分享的強大功能。在此範例中，我們有 2 個虛構公司，即新聞公司與財經公司。Both companies are members of the [!DNL Device Co-op]. 人員 A 是從多個裝置登入或瀏覽每個公司網站的消費者。
+下列範例說明Device Co-op中連結共用的強大功能。 在此範例中，我們有2家虛構公司，即新聞公司和財務公司。 兩家公司都是公司的成員 [!DNL Device Co-op]。 人員A是從多種裝置登入或瀏覽各公司網站的消費者。
 
 ![](assets/share1.png)
 
-因為人員 A 已使用其行動電話和平板電腦向新聞網站進行驗證，新聞公司會以消費者識別碼識別他們。It sends that ID to the [!DNL Device Graph] as a cryptographic hash. 財金公司之前看見過這些裝置，但人員 A 未登入網站。結果，財金公司不知道這些裝置是否或如何彼此相關，也不知道裝置如何與人員 A 相關聯。
+由於Person A已透過其行動電話和平板電腦驗證至新聞網站，因此新聞公司會以消費者ID來識別他們。 它會將該ID以加密雜 [!DNL Device Graph] 湊的方式傳送給。 Finance Company以前也見過這些裝置，但A人員尚未登入網站。 因此，財務公司不知道這些設備是否相互關聯或如何關聯到A人。
 
 ![](assets/share2.png)
 
-Given the cryptographic hash of the consumer ID, the [!DNL Device Graph] recognizes that these devices are related to each other and a particular person. 對於未參與 [!DNL Device Co-op] 的公司，這些網站造訪可能會顯示為來自不同、隨機的裝置。In any case, once the [!DNL Device Graph] has the hashed ID it:
+給定消費者ID的密碼雜湊，該消 [!DNL Device Graph] 費者識別這些設備彼此相關並且與特定人相關。 對於未參與這些網站瀏覽 [!DNL Device Co-op] 的公司，可能會來自個別的隨機裝置。 無論如何，一旦擁有雜 [!DNL Device Graph] 湊ID，就會：
 
-* 得知行動電話和筆記型電腦是連結的。
-* 識別財金公司想要知道行動電話和筆記型電腦是否連結。
+* 知道行動電話和筆記型電腦是連結的。
+* 瞭解Finance Company想要知道行動電話和筆記型電腦是否連結。
 
-Given these conditions, the [!DNL Device Graph] now shares the link connecting these devices for the News Company with the Finance Company. During this process, the [!DNL Device Graph] duplicates and shares the link from one co-op member to another.
+基於這些條件，現 [!DNL Device Graph] 在會分享將新聞公司與財務公司的這些裝置連結的連結。 在此程式中，這 [!DNL Device Graph] 些成員會複製並共用一個合作社成員與另一個成員的連結。
 
 ![](assets/share3.png)
 
-At this point, the [!DNL Device Graph] performed its role successfully. 新聞公司與財金公司均有某身分的清楚樣貌。它們可以在其所有裝置間準確地觸及人員 A。
+此時，已成 [!DNL Device Graph] 功執行其角色。 新聞公司和金融公司都清楚地知道自己的身份。 他們可以跨所有裝置精確觸及A人。
 
-## Privacy and link sharing {#section-7b566018b3304420a4b3e4c079826110}
+## 隱私權和連結共用 {#section-7b566018b3304420a4b3e4c079826110}
 
-保有 [!DNL Device Co-op] 成員的消費者隱私權和資料的完整性，在整個連結分享程序中非常重要。During this customer identification and link sharing process the [!DNL Device Graph] did not:
+在連結分享程式中，維護會員的消 [!DNL Device Co-op] 費者隱私權和資料完整性至關重要。 在此客戶識別和連結分享程式中， [!DNL Device Graph] 並未：
 
-* 告知財金公司連結來自新聞公司。
-* 彼此分享某個 [!DNL Device Co-op] 成員使用的客戶識別碼。
-* 提供行動裝置和筆記型電腦分享的共通連結以外的任何資訊。
+* 告訴財務公司，連結來自新聞公司。
+* 將一個成員使用的客戶ID與另 [!DNL Device Co-op] 一個成員共用。
+* 提供行動裝置與筆記型電腦共用共同連結以外的任何資訊。
 
 ## 下一步 {#section-ac6e61f1eb6e45b1bb4be8ece39147c7}
 
-Reading the documentation on identity, linking, and link sharing should give you a good sense of how the [!DNL Device Graph] assembles data internally. 接下來，我們建議檢視說明如何提供跨裝置連結至Device Co-op會 *`known device`* 員的說明檔案。 請參 [閱「已知設備](../processes/known-device.md#concept-8e87c276819a48bfac5cef10b45216d1) 」和「 [未知設備」](../processes/unknown-device.md#concept-95090d341cdc4c22ba4319d79d8f6e40)。
+閱讀有關身分識別、連結和連結分享的檔案，應該能讓您清楚瞭解資料在內 [!DNL Device Graph] 部的匯整方式。 接下來，我們建議檢視說明如何提供跨裝置連結至Device Co-op會 *`known device`* 員的說明檔案。 請參 [閱「已知設備](../processes/known-device.md#concept-8e87c276819a48bfac5cef10b45216d1) 」和「 [未知設備」](../processes/unknown-device.md#concept-95090d341cdc4c22ba4319d79d8f6e40)。
