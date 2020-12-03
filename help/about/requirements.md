@@ -6,6 +6,9 @@ title: 會籍需求
 uuid: 4295fa4e-1b9e-4323-bb79-48e548ca1167
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 和你談談 [!DNL Adobe representative to get started]。 如果您沒有Adobe代表，請造訪 [Device Co-op會籍入口網站](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) ，並填妥線上表格。
 
-如果Adobe認定潛在客戶可能(1)違反任何適用法律； 或(2)對Adobe或其任何客戶的安全性或營運造成重大風險。
+如果Adobe認定潛在客戶可能(1)違反任何適用法律；或(2)對Adobe或其任何客戶的安全性或營運造成重大風險。
 
 ## Experience Cloud需求 {#section-76218a50385d43e6b9323e49f598394a}
 
@@ -47,11 +50,11 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 **AppMeasurement(Flash)**
 
-需要4.1版。 請參 [閱「Flash、Flex和AIR適用的AppMeasurement」](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)。
+需要4.1版。請參 [閱「Flash、Flex和AIR適用的AppMeasurement」](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)。
 
 **AppMeasurement(JavaScript)**
 
-需要1.5.4版。 請參 [閱「Flash、Flex和AIR適用的AppMeasurement」](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html)。
+需要1.5.4版。請參 [閱「Flash、Flex和AIR適用的AppMeasurement」](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/migrate-from-hcode.html)。
 
 **行動 SDK**
 
@@ -60,9 +63,9 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 * Android 4.8.3 版.
 * iOS 4.8.5 版.
 
-Your SDK code must be enabled for the [!DNL Experience Cloud] ID service. Enable and download the latest SDK code for each app in your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. See [Configure SDK Visitor ID Service Options](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
+Your SDK code must be enabled for the [!DNL Experience Cloud] ID service. Enable and download the latest SDK code for each app in your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. See [Configure SDK Visitor ID Service Options](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
 
-對於每個SDK，請使用符合 `visitorSyncIdentifier` 您需求的適當方法。 請參閱:
+對於每個SDK，請使用符合 `visitorSyncIdentifier` 您需求的適當方法。 請參閱：
 
 * [Android Experience Cloud ID服務方法](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
 * [iOS Experience Cloud ID服務方法](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
