@@ -6,6 +6,9 @@ title: 人員量度
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Device Co-op </p> </td> 
-   <td colname="col2"> <p> 若要使用「人員」量度，請成為 <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op的會員</a>。 Co-op可識別個人的多種裝置（或Experience Cloud ID）。 Analytics利用這項資訊，統計得出與品牌互動的人數。 量度精確到5%以內。 </p> <p><b>地區</b>: Device Co-op目前僅在美國和加拿大提供。 因此，在評估「人員」量度時，您應套用區段至分析，以僅篩選美國和加拿大的資料。 </p> <p>每週，裝置圖表都會計算合作社的新版本，並發佈供使用。 星期二，系統會收集最新資料並發佈圖形的更新版本。 然後，Experience Cloud解決方案會使用圖形的最新版本。 尤其是Analytics，變更會在星期三讀入，而處理變更通常需要1到2個工作天。 </p> <p> <p>重要：  每週更新圖表時，它會影響「人員」量度的歷史記錄。 換言之，歷史「人員」計數會隨著圖形學習和更新而隨時間而變更。 例如，如果您今天執行上個月計算人數的報表，然後在圖形更新後一週內執行相同的報表，則歷史人數會稍有變更。 </p> </p> </td> 
+   <td colname="col2"> <p> 若要使用「人員」量度，請成為 <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op的會員</a>。 Co-op可識別個人的多種裝置（或Experience Cloud ID）。 Analytics利用這項資訊，統計得出與品牌互動的人數。 量度精確到5%以內。 </p> <p><b>地區</b>:Device Co-op目前僅在美國和加拿大提供。 因此，在評估「人員」量度時，您應套用區段至分析，以僅篩選美國和加拿大的資料。 </p> <p>每週，裝置圖表都會計算合作社的新版本，並發佈供使用。 星期二，系統會收集最新資料並發佈圖形的更新版本。 然後，Experience Cloud解決方案會使用圖形的最新版本。 尤其是Analytics，變更會在星期三讀入，而處理變更通常需要1到2個工作天。 </p> <p> <p>重要： 每週更新圖表時，它會影響「人員」量度的歷史記錄。 換言之，歷史「人員」計數會隨著圖形學習和更新而隨時間而變更。 例如，如果您今天執行上個月計算人數的報表，然後在圖形更新後一週內執行相同的報表，則歷史人數會稍有變更。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 量度權限 </td> 
@@ -38,7 +41,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
   </tr> 
   <tr> 
    <td colname="col1"> <p>分析專案／工具 </p> </td> 
-   <td colname="col2"> <p>使用分析工作區、臨 <span class="wintitle"> 機分析、報告建立工具中的「人員」量度</span><span class="wintitle"></span><span class="wintitle"></span>，並透過API使用。 您可以隨處使用「獨特訪客」量度，包括「計算量度」。 </p> <p>例如，建立每人收入量度以取代每獨特訪客收入量度。 </p> <p>「人 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> 員」專案範本</a> ，可供您在分析工作區中開始使用「人員」量度。 </p> </td> 
+   <td colname="col2"> <p>使用分析工作區、臨 <span class="wintitle"> 機分析、報告建立工具中的「人員」量度</span><span class="wintitle"></span><span class="wintitle"></span>，並透過API使用。 您可以隨處使用「獨特訪客」量度，包括「計算量度」。 </p> <p>例如，建立每人收入量度以取代每獨特訪客收入量度。 </p> <p>「人 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> 員」專案範本</a> ，可以開始在分析工作區中使用「人員」度量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>開啟機器人規則 </p> </td> 
@@ -84,7 +87,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>People </p> </td> 
+   <td colname="col1"> <p>人員 </p> </td> 
    <td colname="col2"> <p>「人物」量度是以消費者使用多種裝置與品牌互動的理念為基礎。 分割或分段資料的次數越多，同一人在該資料片段中使用多個裝置的機會就越小。 </p> </td> 
   </tr> 
   <tr> 
