@@ -6,13 +6,16 @@ title: Adobe Experience Cloud Device Co-op檔案
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 44%
 
 ---
 
 
 # Adobe Experience Cloud Device Co-op檔案{#adobe-experience-cloud-device-co-op-documentation}
 
-此數 [!DNL Adobe Experience Cloud] 位合作社 [!DNL Device Co-op] 是參與的客戶可分享裝置連結資訊。 處理 [!DNL Experience Cloud] 此數 [!DNL Device Co-op] 據以形成設備群集。 這些叢集代表未知人員使用的一組裝置。 這些 [!DNL Device Co-op] 群集與其成員分享，協助他們為客戶提供有價值且一致的跨裝置體驗。
+The [!DNL Adobe Experience Cloud] [!DNL Device Co-op] is a digital cooperative where participating customers share device link information. 處理 [!DNL Experience Cloud] 此數 [!DNL Device Co-op] 據以形成設備群集。 這些叢集代表未知人員使用的一組裝置。 這些 [!DNL Device Co-op] 群集與其成員分享，協助他們為客戶提供有價值且一致的跨裝置體驗。
 
 <!-- <a id="section_535A849B2BF14221BD78C968CC02732D"></a> -->
 
@@ -27,7 +30,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
     </ul> </td> 
    <td colname="col2"> <p> <b>發行說明</b> </p> 
     <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
-     <li id="li_09C1CD15823E4AD7856CE40BE848E03F">請參閱最新的 <a href="https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，瞭解全新功能和修正內容。 </li> 
+     <li id="li_09C1CD15823E4AD7856CE40BE848E03F">請參閱最新的 <a href="https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 發行說明</a>，了解全新功能和修正內容。 </li> 
      <li id="li_EA594E939ED14D7780178DEA8E1AED64">See the <a href="https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html" format="https" scope="external"> previous release notes links</a> for older announcements. </li> 
     </ul> <p> <b>Experience Cloud 資源</b> </p> 
     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
