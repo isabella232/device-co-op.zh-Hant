@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
-type: 文件
+type: Documentation
 solution-title: 學習與支援
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
