@@ -4,10 +4,10 @@ product: device co-op
 audience: end-user
 user-guide-title: Device Co-op 指南
 user-guide-description: Adobe Experience Cloud Device Co-op 是數位合作社，參與的客戶可在其中分享裝置連結資訊。此資訊可協助他們為客戶提供有價值且一致的跨裝置體驗。
-source-git-commit: 27c2c3044d65a4d6b4a2eef8454d90d9f68cfa1d
+source-git-commit: 9700a77aed23e2899ce59b6589793032554fe7c0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 31%
+source-wordcount: '123'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 31%
 
 + [Adobe Experience Cloud Device Co-op檔案](home.md)
 + 關於Device Co-op {#about}
-   + [概述](about/overview.md)
+   + [Device Co-op服務終止常見問題集](about/device-co-op-eol.md)
+   + [概覽](about/overview.md)
    + [會籍需求](about/requirements.md)
 + 關於裝置圖表{#device-graph}
    + [裝置圖表概述](processes/device-graph-overview.md)
