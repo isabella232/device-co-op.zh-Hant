@@ -1,9 +1,9 @@
 ---
 keywords: adobe experience cloud;Adobe Experience Cloud;device co-op;Device Co-op；終止服務
-solution: Adobe Experience Cloud
 title: Device Co-op服務終止常見問題集
 description: 了解Device Co-op的服務終止計畫。
-source-git-commit: b9e21ba2f749b7a4ad69c122e2273b7f3309da58
+exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
+source-git-commit: c19e8425d5d6c2498186c19929907d2ee5327b31
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Device Co-op服務終止常見問題集
 
-本檔案提供Adobe Experience Cloud Device Co-op服務終止(EOL)計畫常見問題的解答。 此計畫生效後，Adobe將在[Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)和[優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)中提供進階通知。
+本檔案提供Adobe Experience Cloud Device Co-op服務終止(EOL)計畫常見問題的解答。 此計畫生效後，Adobe將在[Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)和[優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)中提供進階通知。
 
 ## 常見問題集
 
