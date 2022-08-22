@@ -3,9 +3,9 @@ keywords: adobe體驗雲；Adobe Experience Cloud；設備合作；設備合作�
 title: 設備合作停產常見問題
 description: 瞭解設備合作計畫的報廢計畫。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
+source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ AdTech環境即將發生的變化預計將導致 [!DNL Device Co-op] 成為未�
 
 ## 為什麼Adobe結束 [!DNL Device Co-op] 立即註冊？
 
-註冊結束是為了防止由於即將到來的圍繞第三方Cookie的行業變化而達不到客戶預期的風險。 [!DNL Device Co-op] 要準備好幾個月，再花幾個月時間從服務中獲取價值。 此時，任何進一步的註冊都可能導致品牌沒有充分體驗到 [!DNL Device Co-op]。
+註冊結束是為了防止由於即將到來的圍繞第三方Cookie的行業變化而達不到客戶預期的風險。 [!DNL Device Co-op] 要準備好幾個月，再花幾個月，才能從服務中獲得價值。 此時，任何進一步的註冊都可能導致品牌沒有充分體驗到 [!DNL Device Co-op]。
 
 ## 2022年7月，Google宣佈將第三方Cookie的棄用推遲到2024年。 這會影響 [!DNL Device Co-op] EOL計畫？
 
@@ -40,7 +40,7 @@ AdTech環境即將發生的變化預計將導致 [!DNL Device Co-op] 成為未�
 
 ## 具體結束日期是 [!DNL Device Co-op] 程式？
 
-的 [!DNL Device Co-op] 計畫將於2022年結束。 具體時間和日期取決於 [!DNL Google] 開始阻止第三方Cookie。
+的 [!DNL Device Co-op] 計畫將於2022年結束。 具體時間和日期取決於 [!DNL Google] 開始阻止第三方Cookie。 預計停止運作工作將於2022年9月開始。
 
 ## 哪些應用程式將受設備合作計畫終止的影響？
 
@@ -59,7 +59,7 @@ AdTech環境即將發生的變化預計將導致 [!DNL Device Co-op] 成為未�
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] 維護與第三方設備圖形合作夥伴的整合，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，儘管您必須直接與圖形合作夥伴建立商業關係，以便利用 [!DNL Audience Manager]。
+[!DNL Audience Manager] 維護與第三方設備圖形合作夥伴的整合，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，儘管您必須直接與圖形合作夥伴建立商業關係，以便利用 [!DNL Audience Manager]。 所有客戶都需要更新任何合作計畫檔案合併規則，以使用除 [!DNL Device Co-op.]
 
 ### [!DNL Real-time Customer Data Platform]
 
