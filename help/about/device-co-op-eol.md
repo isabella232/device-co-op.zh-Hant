@@ -3,9 +3,9 @@ keywords: adobe體驗雲；Adobe Experience Cloud；設備合作；設備合作�
 title: 設備合作停產常見問題
 description: 瞭解設備合作計畫的報廢計畫。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
+source-git-commit: 6cb8efa9090d414e1f75c78d40d1c684d04342f9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 4%
 # 設備合作停產常見問題
 
 本文檔提供有關Adobe Experience Cloud設備合作計畫(EOL)計畫的常見問題的答案。 此計畫生效後，Adobe將在 [Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) 和 [優先順序產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)。
+
+Device Co-op是一個項目，讓參與者可以通力合作，在確保最高級別的隱私和透明度的同時，更好地識別數字觸摸點上的消費者。
 
 ## 常見問題集
 
@@ -75,7 +77,7 @@ AdTech環境即將發生的變化預計將導致 [!DNL Device Co-op] 成為未�
 
 ### Adobe Advertising Cloud
 
-[!DNL Advertising Cloud] 客戶將不再能夠使用 [!DNL Device Co-op] 用於跨設備目標和測量。 與 [!DNL Advertising Cloud]你仍然能利用Adobe [!DNL Device Graph] 合作 [!DNL LiveRamp] 繼續履行這些職能， [!DNL LiveRamp’s] 能力和規模。 您必須允許您使用的市場活動 [!DNL Device Co-op] 結束，然後切換到 [!DNL LiveRamp] 設備圖形提供商，或不再利用基於人的目標。
+[!DNL Advertising Cloud] 客戶將不再能夠使用 [!DNL Device Co-op] 用於跨設備目標和測量。 與 [!DNL Advertising Cloud]你仍然能利用Adobe [!DNL Device Graph] 合作 [!DNL LiveRamp] 繼續履行這些職能， [!DNL LiveRamp's] 能力和規模。 您必須允許您使用的市場活動 [!DNL Device Co-op] 結束，然後切換到 [!DNL LiveRamp] 設備圖形提供商，或不再利用基於人的目標。
 
 ## 哪些現有功能和實施可以幫助我為無餅乾的未來做好準備？
 
