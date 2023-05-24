@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Device Co-op已封存
 
-請參閱已中止。en
+請參閱discontinued.en

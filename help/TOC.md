@@ -14,4 +14,4 @@ ht-degree: 90%
 
 # Device Co-op 指南 {#using}
 
-+ [設備合作停產常見問題](about/device-co-op-eol.md)
++ [Device Co-op生命週期結束常見問題集](about/device-co-op-eol.md)
